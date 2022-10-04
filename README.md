@@ -28,11 +28,11 @@ Thank you for checking it out!
 
 ## Project URL
 
-<https://github.com/kaleikautakaoka/Sachi-Portfolio>
+<https://kaleikautakaoka.github.io/Web-Profile/>
 
 ## Delpoyment
 
-- [https://kaleikautakaoka.github.io/Sachi-Portfolio](https://kaleikautakaoka.github.io/Sachi-Portfolio)
+- [https://kaleikautakaoka.github.io/Web-Profile/](https://kaleikautakaoka.github.io/Web-Profile/)
 
 ## Demo/Screenshots
 
