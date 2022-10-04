@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+}
+
+header {
+  padding: 5px;
+  background: lightblue;
+  padding: 12px 20px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header h1 {
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+  margin-right: 10px;
+  transition: all 0.25s ease-in;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #e6d7ad;
+  transition: .5s ease;
+}
+
+a:hover {
+  font-size: 24px;
+}
+
+.card header {
+  padding: 10px;
+  background: #477196;
+  color: #fff;
+  border-width: 5px;
+}
+
+.hero-banner {
+  background-image: url("../images/hero-banner2.png");
+  min-height: 35vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  padding: 40px 20px 10px 20px;
+  color: #6178b6;
+}
+
+.webpic img {
+  width: auto;
+  height: 500px;
+}
+
+.about-info {
+  padding: 12px 20px 12px 20px;
+}
+
+.about-info p {
+  font-size: 16px;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  color: #6178b6;
+}
+
+.project-section h1 {
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  color: #6178b6;
+  border: 2px solid #6178b6;
+  background-color: lightblue;
+  min-height: 200px;
+  min-width: 300px;
+  margin: 20px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: #e6d7ad;
+  transition: .5s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card div {
+  margin-top: 50%;
+  color: white;
+  text-align: center;
+  background-color: black;
+  opacity: 60%;
+  width: 100%;
+}
+
+/* Portfolio Section Images */
+.horiseon {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/horiseon.png");
+  
+}
+
+.password-generator {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/pass-gen.png");
+}
+
+address a {
+  color: #fff;
+}
+
+.contactme {
+  color: #fff;
+  padding: 20px;
+  background: lightblue;
+  width: 100%;
+}
+
+.contactme h2 {
+  text-align: center;
+}
+
+.contactme address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.contactme a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.contactme a:hover {
+  color: #e6d7ad;
+  font-size: 24px;
+  transition: .5s ease;
+}
